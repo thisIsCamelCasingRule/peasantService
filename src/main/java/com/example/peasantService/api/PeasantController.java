@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(path = "/peasant")
-public class PeasantController {
+public class PeasantController{
 
     @Autowired
     private PeasantService service;
